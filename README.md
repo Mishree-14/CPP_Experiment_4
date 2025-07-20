@@ -21,18 +21,15 @@ Every number is made of bits (0s and 1s).
 Useful when we want to control specific bits — like in LEDs, sensors, switches, flags, etc.
 
 #### Common Bitwise Operators in C++
-```
-+----------------+--------+--------------------------------------------------+
-|   Operator     | Symbol |                 What It Does                     |
-+----------------+--------+--------------------------------------------------+
-| AND            |   &    | Returns 1 only if both bits are 1               |
-| OR             |   |    | Returns 1 if at least one bit is 1              |
-| XOR (Exclusive)|   ^    | Returns 1 if only one of the bits is 1          |
-| NOT            |   ~    | Inverts all bits (0 becomes 1, 1 becomes 0)     |
-| Left Shift     |   <<   | Shifts bits to the left (equivalent to ×2)      |
-| Right Shift    |   >>   | Shifts bits to the right (equivalent to ÷2)     |
-+----------------+--------+--------------------------------------------------+
-```
+| Operator     | Symbol | Description                                        |
+|--------------|--------|----------------------------------------------------|
+| AND          | `&`    | Sets bit to 1 only if both bits are 1              |
+| OR           | `|`    | Sets bit to 1 if at least one bit is 1             |
+| XOR          | `^`    | Sets bit to 1 if only one of the bits is 1         |
+| NOT          | `~`    | Inverts all bits (0 becomes 1, 1 becomes 0)        |
+| Left Shift   | `<<`   | Shifts bits to the left, multiplying by 2          |
+| Right Shift  | `>>`   | Shifts bits to the right, dividing by 2            |
+
 
 ### Set and Reset a Bit
 Sometimes, we don’t want to change the whole number — just one single bit.
