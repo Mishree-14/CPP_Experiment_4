@@ -3,12 +3,14 @@
 ## Aim
 To:
 > Understand how bitwise operators work in C++
-> 
+ 
 > Learn how to set (turn ON) and reset (turn OFF) specific bits in a number
 
 ## Objectives
 🔹 Use basic bitwise operators like &, |, ^, ~, <<, >>
+
 🔹 Learn how to change just one bit in a number
+
 🔹 Understand how shifting bits left or right changes the whole value
 
 
@@ -19,6 +21,7 @@ Every number is made of bits (0s and 1s).
 Useful when we want to control specific bits — like in LEDs, sensors, switches, flags, etc.
 
 #### Common Bitwise Operators in C++
+```
 +----------------+--------+--------------------------------------------------+
 |   Operator     | Symbol |                 What It Does                     |
 +----------------+--------+--------------------------------------------------+
@@ -29,7 +32,7 @@ Useful when we want to control specific bits — like in LEDs, sensors, switches
 | Left Shift     |   <<   | Shifts bits to the left (equivalent to ×2)      |
 | Right Shift    |   >>   | Shifts bits to the right (equivalent to ÷2)     |
 +----------------+--------+--------------------------------------------------+
-
+```
 
 ### Set and Reset a Bit
 Sometimes, we don’t want to change the whole number — just one single bit.
